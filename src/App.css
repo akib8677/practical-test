@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.btn-section{
+  display: flex;
+}
+
+.btn-section .btn {
+  border: none;
+  background: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.custom-model {
+  background: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+}
+
+
+/* search input css */
+
+.searchBar .search-container {
+  float: right;
+}
+
+.searchBar input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+}
+
+.searchBar .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.searchBar .search-container button:hover {
+  background: #ccc;
+}
